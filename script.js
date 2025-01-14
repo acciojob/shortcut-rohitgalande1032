@@ -1,5 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
+	if(str1.length > 1 && str2.length>1){
+      return (str1[0]+str2[0]);
+    } else {
+      return '';
+    }
 }
 
 // Do not change the code below.
